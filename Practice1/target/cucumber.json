@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "login with valid credential and check the different functionality",
+        "description": "",
+        "id": "check-automationpractice-login;login-with-valid-credential-and-check-the-different-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4147910000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open the chrome browser",
+            "match": {
+              "location": "stef_defpractice.open_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9244176200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the \"https://www.amazon.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.com",
+                  "offset": 11
+                }
+              ],
+              "location": "stef_defpractice.enter_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1306673500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on sign button",
+            "match": {
+              "location": "stef_defpractice.click_on_sign_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 639149500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "exit the browser",
+            "match": {
+              "location": "stef_defpractice.exit_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@MyLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Check automationpractice login",
+    "description": "",
+    "id": "check-automationpractice-login",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/practice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@MyLogin"
+      }
+    ]
+  }
+]
